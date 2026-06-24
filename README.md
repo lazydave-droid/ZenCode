@@ -1,7 +1,12 @@
 # ZenCode Terminal Application
 
 ## Overview
-ZenCode is a terminal-based AI coding assistant that communicates with Ollama servers to generate code, create files, and execute shell commands directly from your command line. It provides a Claude Code-like experience while being fully customizable for remote Ollama deployments.
+ZenCode is a terminal-based AI coding assistant that communicates with Ollama servers to generate code, create files, and execute shell commands directly from your command line. It provides a Temu-spec Claude Code-like experience while being fully customizable for remote Ollama deployments. 
+
+## Why?
+Quite simply: We run an LLM server. We don't develop on that server. We needed a way to get it generating code that it could drop straight on to our local machines for testing and pushing to our internal Git repo.  Much like Claude Code. Except without the session limits, usage limits, weekly limits and all those other things we're forever hitting. Yes there's other ways to achieve it, but there's something about being in a terminal, launching ZenCode from the folder we want the code to land it, and throwing a well crafted prompt at it to let it do its thing. 
+
+It's not pretty, but it generally works. And handy if you throw something big at it to procastinate over and you get side tracked by more important efforts, like getting coffee. We might throw some updates on it as we decide we need more functionality. We might entertain anyone throwing some code at it to improve it. 
 
 ## Features
 - **Remote Ollama Support**: Connects to any Ollama server (local or remote)
