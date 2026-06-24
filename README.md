@@ -32,7 +32,7 @@ cd ~/zen-code-app
 
 2. **Download the main script:**
 ```bash
-wget https://raw.githubusercontent.com/your-repo/zen-code/main/zen_code.py
+wget [https://raw.githubusercontent.com/your-repo/zen-code/main/zen_code.py](https://github.com/lazydave-droid/ZenCode/blob/main/zen_code.py)
 chmod +x zen_code.py
 ```
 
